@@ -5,7 +5,7 @@ const url = 'https://imdb236.p.rapidapi.com/api/imdb/most-popular-movies';
 const options = {
     method: 'GET',
     headers: {
-        'x-rapidapi-key': 'YOUR_API_KEY_HERE',
+        'x-rapidapi-key': 'YOUR_API_KEY_HERE', //insert your own RapidAPI key here
         'x-rapidapi-host': 'imdb236.p.rapidapi.com'
     }
 };
@@ -67,6 +67,7 @@ moodButtons.forEach(btn => {
         showMovies(filtered);
     });
 });
+
 
 
 
