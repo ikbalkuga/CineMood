@@ -5,7 +5,7 @@ const url = 'https://imdb236.p.rapidapi.com/api/imdb/most-popular-movies';
 const options = {
     method: 'GET',
     headers: {
-        'x-rapidapi-key': '6969a020f3msh057ec9cd8dca846p18f848jsna98093cccc90',
+        'x-rapidapi-key': 'YOUR_API_KEY_HERE',
         'x-rapidapi-host': 'imdb236.p.rapidapi.com'
     }
 };
